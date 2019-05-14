@@ -1,0 +1,14 @@
+spring: 
+  profile: 
+    active: 
+    - dev
+---
+spring: 
+  profiles: dev
+  application: 
+    name: tianlan-config-tianlan-dev
+---
+spring: 
+  profiles: test
+  application: 
+    name: tianlan-config-tianlan-test
